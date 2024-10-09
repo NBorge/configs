@@ -70,7 +70,6 @@ nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 
-""""""""""""" PLUGINS
 call plug#begin()
  Plug 'ap/vim-css-color'
  Plug 'tpope/vim-surround'
@@ -86,13 +85,18 @@ call plug#begin()
  Plug 'terryma/vim-multiple-cursors'
  Plug 'nvim-lua/plenary.nvim'
  Plug 'nvim-telescope/telescope.nvim'
+ Plug 'christoomey/vim-tmux-navigator'
+ Plug 'ggandor/leap.nvim'
  " THEMES
- "Plug 'dracula/vim'
  Plug 'rafi/awesome-vim-colorschemes'
 call plug#end()
 
 "colorscheme jellybeans
 "colorscheme afterglow
 colorscheme gruvbox
+
+" setup leap.vim
+lua require('leap').create_default_mappings()
+nnoremap <C-s> cl
 
 
