@@ -91,5 +91,8 @@ call plug#begin()
  Plug 'rafi/awesome-vim-colorschemes'
 call plug#end()
 
-colorscheme jellybeans
+"colorscheme jellybeans
+"colorscheme afterglow
+colorscheme gruvbox
+
 
