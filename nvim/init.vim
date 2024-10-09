@@ -24,7 +24,7 @@ set ttyfast                 " Speed up scrolling in Vim
 " set backupdir=~/.cache/vim " Directory to store backup files.
 set clipboard+=unnamedplus   " using system clipboard
 set scrolloff=3
-set paste
+autocmd FileType * set formatoptions-=ro " Disable auto comments
 
 """"""""""""" Custom Bindings
 " tabs
