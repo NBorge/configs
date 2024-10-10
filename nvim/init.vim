@@ -89,6 +89,8 @@ call plug#begin()
  Plug 'ggandor/leap.nvim'
  " THEMES
  Plug 'rafi/awesome-vim-colorschemes'
+ " language highlighting
+ Plug 'BeneCollyridam/futhark-vim' " Futhark
 call plug#end()
 
 "colorscheme jellybeans
