@@ -27,6 +27,8 @@ set scrolloff=3
 autocmd FileType * set formatoptions-=ro " Disable auto comments
 
 """"""""""""" Custom Bindings
+" rebind autocomplete
+imap <C-j> <C-y>
 " tabs
 nnoremap <Tab> :tabnext<CR>
 nnoremap <S-Tab> :tabprevious<CR>
